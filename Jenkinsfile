@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'java square'
+                sh 'java Square'
             }
-        }
-    }
+        }
+    }
 }
